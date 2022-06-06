@@ -6,6 +6,8 @@
         padding: 0;
         }
      
+
+        /* ------------------------------------CABEÇALHO (inicio)---------------------------------------------------- */
       header {
         display: flex;
         padding: 0 29px; 
@@ -70,11 +72,6 @@
       .principal-header .div-buscar input::placeholder {
         color:white;
       }
-
-
-
-     
-
 
 
 

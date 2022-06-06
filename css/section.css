@@ -1,0 +1,71 @@
+/* ----------------------------------------PARTE DO MEIO (primeiras imgs)-------------------------------------------------------- */
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  .div-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .div-section h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .div-section .section-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  .div-section .cards-imagens,
+  .div-section .card-anuncio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 39%;
+  }
+
+  .div-section .card-anuncio {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.5px solid #707070;
+    margin-left: 20px;
+    padding-left: 15px;
+  }
+
+  .div-section .card-anuncio .span {
+    color: #9b0505;
+    font-family:  normal normal 600 40px/33px;
+    font-weight: 500;
+    font-size: 27px;
+   
+  }
+
+  .div-section .card-anuncio span {
+    color: #9b0505;
+    font-size: 15px;
+  }
+
+
+  .div-section .card-caminhao {
+    margin-bottom: 30px;
+  }
+
+  .section-cards .cards-imagens img {
+    width: 100%;
+  }
+
+
+ 
+
+
