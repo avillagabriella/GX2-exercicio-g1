@@ -13,6 +13,4 @@ Atividade de Front realizada para GX2 do programa Pré-Rocket Talents.
 
 
 
-## Link do Projeto
-
 
