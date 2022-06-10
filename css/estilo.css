@@ -6,14 +6,13 @@
         padding: 0;
         }
      
-
-        /* ------------------------------------CABEÇALHO (inicio)---------------------------------------------------- */
+      /* header */
       header {
-        display: flex;
-        padding: 0 29px; 
-        height: 65px;
-        background-color: #C4170C ;
-        justify-content: center;  /*centr.*/
+        padding: 15px 10%;
+        background-color: #C4170C;
+        color: #FFFFFF;
+        font-weight: 600;
+        align-items: center;
         
       }
       
@@ -47,6 +46,7 @@
         justify-content: flex-end; /* os ítens são alinhados junto à borda final (end) de acordo com qual for a flex-direction do container. */
         display: flex;
         
+        
       }
       
       .principal-header .input {
@@ -67,6 +67,7 @@
         background: transparent;
         outline: none; /*contorno do buscar*/
         color:white;
+        
       }
       
       .principal-header .div-buscar input::placeholder {
@@ -74,11 +75,200 @@
       }
 
 
-
-
-
-
-
-
+     
+    /* section */
+    
+      section {
+        display: flex;
+        justify-content: center;
+        padding: 0 40px;
+      }
+    
+      .div-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+    
+      .div-section h1 {
+        font-size: 25px;
+        text-align: center;
+        margin: 30px;
+      }
+    
+      .div-section .section-cards {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+      }
+    
+      .div-section .cards-imagens, .div-section .card-anuncio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+      }
+      
+    
+      .card-caminhao strong{
+          font-size: 14px;
+      }
+    
+      .card-mulher strong{
+        font-size: 14px;
+      }
+    
+      .div-section .card-anuncio {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1.5px solid #707070;
+        margin-left: 20px;
+        padding-left: 15px;
+      }
+    
+      .div-section .card-anuncio .span {
+        color: #9b0505;
+        font-family:  normal normal 600 40px/33px;
+        font-weight: 500;
+        font-size: 27px;
+       
+      }
+    
+      .div-section .card-anuncio span {
+        color: #9b0505;
+        font-size: 15px;
+      }
+    
+    
+      .div-section .card-caminhao {
+        margin-bottom: 30px;
+      }
+    
+      .section-cards .cards-imagens img {
+        width: 100%;
+      }
       
      
+
+    /* main */
+      main{
+          display: flex;
+          justify-content: center;
+          padding: 0 30px;
+      }
+      
+      .container{
+        
+      }
+      .container .notas-dinheiro{
+          display: flex;
+          margin-bottom: 2%;
+          
+      }
+      
+      .container .notas-dinheiro img{
+      height: 250px;
+      border-radius: 1%;
+      padding-left: 30px;
+      margin-top: 50px;
+        
+      }
+      
+      .container .descricao{
+      padding-left: 30px;
+      margin-top: 50px;
+      
+      }
+      
+      
+      .container .descricao h2{
+          color: #C4170C;
+      }
+      
+      .container .descricao span{
+          color: #746565;
+      }
+      
+      .linha{
+          border: 1px solid #707070;
+          margin-top: 50px;
+      }
+      
+      .container .button{
+          width: 320px;
+          color: #fff;
+          font-size: 18px;
+          background-color: #c4170c;
+          border: none;
+          border-radius: 4px;
+          height: 60px;
+          margin-top: 130px;
+          margin-left: 500px;
+          
+          
+      }
+
+      
+      /* footer */
+      .footer {
+        background-color: #C4170C;
+        color: #fff;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "logotipo-foo ."
+            "descricao-foo menu-servico";
+        grid-area: footer;
+        padding: 15px 11% 0 9%;
+        margin: 50px 0 0 0;
+        text-align: left;
+        
+      }
+      
+      .logotipo-foo {
+        grid-area: logotipo-foo;
+        display: flex;
+        align-items: center;
+      }
+      .logotipo-foo span{
+        padding-left: 28px;
+        font:normal normal 600 30px/40px Segoe UI;
+      }
+      
+      .descricao-foo {
+        grid-area: descricao-foo;
+        margin: 0;
+        font: normal normal normal 20px/28px 'Segoe UI';
+      }
+      
+      .menu-servico {
+        grid-area: menu-servico;
+        text-align: end;
+        font: normal normal normal 20px/28px 'Segoe UI';
+      }
+      .menu-servico ul li{
+        display: inline-block;
+        border-right: #fff solid 2px;
+      }
+      .menu-servico ul li a, a:hover, a:active, a:visited {
+        padding: 0 5px;
+        color: #fff;
+        text-decoration: none;
+      }
+      .menu-servico ul li:last-child{
+        border-right: none;
+      }
+      .menu-servico ul li a:hover{
+        background-color: #fff;
+        border-radius: 10px;
+        color: #C4170C;
+        transition: all 0.3s;
+      }
+      
+      
+      
